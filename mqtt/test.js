@@ -33,5 +33,6 @@ client.on("connect", function() {
   //   })
   // );
   // }, 1000);
-  // client.
+  client.subscribe("test");
+  client.publish("test", "just a test");
 });
